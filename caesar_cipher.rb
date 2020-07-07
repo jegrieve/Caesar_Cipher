@@ -20,7 +20,11 @@
         alphabet[shifted_i % 26] 
     end
     
-    #caesar_cipher("What a string!", 5)
+
+
+#    p caesar_cipher("What a string!", 5) 
+#    => "Bmfy f xywnsl!"
+
 
 
 
