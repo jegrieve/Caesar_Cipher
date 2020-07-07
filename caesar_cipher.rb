@@ -3,12 +3,12 @@
         ciphered_array = []
 
         unciphered_array.each do |char| 
-        if char.upcase == char
-            ciphered_array << (shift_char(char.downcase, factor)).upcase
-        else
-            ciphered_array << shift_char(char, factor)
-        end  
-    end
+             if char.upcase == char
+                ciphered_array << (shift_char(char.downcase, factor)).upcase
+             else
+                ciphered_array << shift_char(char, factor)
+            end  
+        end
         ciphered_array.join("")
     end
 
